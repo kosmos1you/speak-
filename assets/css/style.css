@@ -1,0 +1,600 @@
+
+a{
+     color: rgb(131, 128, 128);
+}
+header a:hover{
+    color: red; 
+    text-decoration: none;
+}
+ body{ 
+     height: 2000px;
+}
+header .navbar-light{
+    background-color: #ffffff;
+}
+header .nav-item{
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+                                    /*Секция 1*/
+.feature{
+    margin-top: 80px;
+
+}
+h1{
+ font-size: 70px;
+}
+.btn_book{
+    margin-top: 60px;
+    display: inline-block;
+    background-color: #e22104;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 9px 25px;
+    text-transform: capitalize;
+    transition: all .3s ease 0s;
+    
+}
+.btn_book a{
+   
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.btn_Watch{
+    margin-left: 75px;
+    border: none;
+    font-size: 25px;
+    background-color: white;
+}
+.btn_Watch a{
+    text-decoration: none;
+    color: black;
+}
+.hero-info li{
+  margin-top: 70px;
+  float: left; 
+  border-right: 1px solid #eee;
+  margin-bottom: 0; 
+  margin-right: 40px;
+}
+
+.hero-info h4{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.info img{
+    margin-top: 20px;
+    margin-left:30px;}
+.info{
+    list-style-type: none;
+}
+.social-icons{
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    left: -25px;
+}
+.social-icons li {
+    list-style-type: none;
+    margin-bottom: 32px;
+}
+.social-icons li :hover {
+    color: red;
+    list-style-type: none;
+   
+}
+.social-icons i{
+    font-size: 20px;
+    color: #2f2d4e;
+}
+
+
+/*Секция 2*/
+.img-styleBox{
+    position: relative;
+}
+.img-styleBox .styleBox-img2 {
+    position: absolute;
+    bottom: -50px;
+    right: -15px;
+}
+.about{
+    margin-top: 120px;
+}
+.section-intro .intro-title{
+    display: inline-block;
+    font-size: 25px;
+    color: #e22104;
+    padding-right: 112px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.section-intro .intro-title::after{ 
+    content:"";
+    display:block;
+    height:1px;
+    min-width:100px;
+    background-color:#3a414e;
+    position:absolute;
+    top:50%;
+    right:0;
+    transform:translateY(-50%)
+}
+/*Секция 3*/
+.card-body a{
+    color: rgb(131, 128, 128);
+}
+
+.section-intro{
+    margin-top: 70px;
+}
+.card-text{
+   font-size: 22px;
+}
+.star{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+
+.rating-star ul{
+    list-style-type: none;
+}
+.rating-star li{
+    display: inline-block;
+    
+}
+.rating-star li:last-child {
+    margin-right: 0;
+}
+.price-tag{
+    font-size: 18px;
+    color: red;
+}
+.price-tag2{
+    margin-right: 50px;
+    font-size: 20px;
+    color: red;
+}
+.card{
+    margin-right: 40px;
+}
+.card-img-top{
+    margin-top: 10px;
+}
+.fa-star-o{
+    color: rgb(255, 136, 0);
+}
+
+/*
+========
+section 4
+========
+*/
+.menu{
+    margin-top: 40px;
+}
+.offer-card-position{
+    position: relative;
+    left: -110px;
+    top: 70px;
+    margin-bottom: 70px;
+}
+.offer-card{
+    background: #e22104;
+    color: #fff;
+    text-align: center;
+    padding: 80px 90px;
+    box-shadow: -13px 2px 20px 0 rgba(8,6,89,.2);
+}
+.offer-card h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.offer-card h2{
+    font-size: 60px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.offer-card .button {
+    margin-top: 20px;
+    border: 1px solid #fff;
+}
+.button{
+    display: inline-block;
+    background-color: #e22104;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 12px 45px;
+    text-transform: capitalize; 
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+
+.offer-card a:hover{
+    background-color: #f71900; 
+    color: #ffffff;
+    text-decoration: none;
+}
+/*
+=================
+        Menu
+================
+*/
+
+.food-card{
+    margin-top: 10px;
+    padding: 30px 40px;
+    background: #fff7f7;
+    border-style: none;
+    border-color:rgb(184, 140, 140) ;
+    
+}
+.food-card:hover{
+    border-style: none;
+    transition: 0.5s;
+    box-shadow: 0 0 5px 1px rgb(185, 181, 181);
+    background: #fff;
+}
+.food-card-title{
+    position: relative;
+    margin-bottom: 5px;
+}
+.food-card-title >*{
+    margin: 0;
+}
+.food-card-title ::after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 191px;
+    top: 55%;
+    width: 30%;
+    height: 1px;
+    background-color: #363636
+}
+.food-card-title h4{
+   
+    z-index: 1;
+    padding-right: 10px;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.food-card-title h3{
+    padding-left: 10px;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.food-card-title .price-tag{
+    z-index: 1;
+}
+.food-card .price-tag {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+/*
+================
+
+    Under
+
+================
+*/
+
+.cta-area {
+    margin-top: 100px;
+    background: url(../img/home/cta-bg.png) left center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 80px 0 70px;
+}
+.cta-area::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(2,1,15,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.cta-area h2{
+    font-size: 30px;
+    color:  #fff;
+}
+.cta-area p{
+    margin: 20px;
+    font-size: 20px;
+    color:  #fff;
+}
+.cta-area a {
+    color: white;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+/*
+================
+
+   Our Chef
+
+================
+*/
+
+.Our{
+    margin-top: 100px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    padding: 80px 0 70px;
+}
+.Our-bg{
+    background: rgba(235, 210, 210, 0.342);
+}
+.chef-card{
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.chef-card:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 15px 1px rgb(228, 148, 148);
+   
+}
+
+.chef-card .chef-footer {
+    position: absolute;
+    width: 94.5%;
+    bottom: 10px;
+    left: 50%;
+    background: #fff;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px 5px 10px;
+    z-index: 10;
+}
+.chef-card h4 {
+    margin-bottom: 0;
+}
+.chef-card p {
+    color: #777;
+    margin-bottom: 0;
+}
+.section-intro h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.social-icons2{
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    left: 290px;
+}
+.social-icons2 li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.social-icons2 li :hover {
+    color: rgb(235, 38, 38);
+    list-style-type: none;
+   
+}
+.social-icons2 i{
+    font-size: 22px;
+    color: #f7f4f4;
+}
+
+/*================*/
+.social-icons3{
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    left: -20px;
+}
+.social-icons3 li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.social-icons3 li :hover {
+    color: rgb(235, 38, 38);
+    list-style-type: none;
+   
+}
+.social-icons3 i{
+    font-size: 22px;
+    color: #f7f4f4;
+}
+
+/*
+==========
+РЕГЕСТРАЦИЯ
+==========
+*/
+
+.bg{
+    background: rgba(235, 210, 210, 0.342);
+}
+.section-intro {
+    max-width: 460px;
+}
+.search-wrapper {
+    background: url(../img/home/reservation-bg.png) left center no-repeat;
+    background-size: cover;
+    padding: 30px 10px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 15px 1px rgb(228, 148, 148);
+    border-radius: 5%;
+}
+.search-wrapper h3{
+    color: white;
+}
+.top{
+    margin-bottom: 125px;
+}
+.search-wrapper a{
+    text-decoration: none;
+}
+.form-control:focus {
+    border-color: #e22204ef;
+}
+  .btn-default:hover {
+    border-color: #e22204ef;
+}
+  .btn-default:a {
+    border-color: #e22204ef;
+}
+.form-control{
+    color: #e22204ef;
+}
+.form-control{
+    border-radius: 9px;
+}
+.input-group{
+    margin-top: 20px;
+}
+.input-group-append :hover{
+color: red;
+}
+.button2{
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #e22204ef;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 12px 45px;
+    text-transform: capitalize; 
+   
+    transition: all .3s ease 0s;
+}
+.button2:hover{
+    color: #fff;
+    background-color: #ff0000;
+   
+}
+/*
+=====
+BLOG
+=====
+*/
+.blog-info {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.blog-info li {
+    color: #999;
+    float: left;
+    
+}
+.blog-info li{
+    list-style-type: none;
+    color: #999;
+}
+.blog-info li::after{
+    content: "/";
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.blog-info li:last-child::after{
+    content: "";
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.card-blog:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 15px 1px rgb(228, 148, 148);
+   
+}
+.blog-body {
+    padding: 30px;
+}
+.blog-bogy a{
+    text-decoration: none;
+}
+.blog-bogy a:hover{
+    color: rgb(199, 79, 79);
+}
+.blog-bogy >a>h3{
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/*
+=========
+Footer
+=========
+*/
+footer{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 600;
+}
+.footer-area {
+    padding: 120px 0;
+    background: #fff8f7;
+}
+.single-footer-widget h4{
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.single-footer-widget p{
+    font-weight: 600;
+}
+
+.single-footer-widget ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-area .single-footer-widget ul li {
+    margin-bottom: 10px;
+}
+.single-footer-widget li a:hover{
+    color: rgb(248, 1, 1);
+}
+.footer-area .single-footer-widget .click-btn {
+    border-radius: 25%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    padding: 3px 15px;
+    border: 0;
+    background: #e2220498;
+    color: #fff;
+    position: relative;
+    left: 0;
+    text-transform: capitalize;
+}
+.footer-area .single-footer-widget .click-btn:hover{
+    background: #e22204e1;
+}
+.form-wrap .icons{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 30px;    
+}
+.form-wrap .icons:hover{
+    color: red;
+}

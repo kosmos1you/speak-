@@ -1,0 +1,60 @@
+
+ @media (max-width: 992px) { 
+    
+    .feature {
+        margin-top: 50px;
+    }
+    .feature h1{
+        margin-top: 70px;
+        font-size: 45px;
+    }
+    .feature .btn_Watch {
+        margin-left: 0;
+        border: none;
+        font-size: 25px;
+        background-color: white;
+    }
+    .hero-info li {
+        margin-top: 23px;
+        float: right;
+        border-right: none;
+        margin-bottom: 0;
+        margin-right: -17px;
+    }
+    .section-intro {
+        max-width: none;
+        margin-top: 0px; 
+    }
+    .section-intro h2 {
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
+    .about .btn_book {
+        margin-top: 0px;
+        margin-bottom: 150px;
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 0;
+    }
+    .card-text {
+        font-size: 25px;
+    }
+    .chef-card {
+        margin-top: 20px;
+        margin-left: 190px;
+    }
+    .offer-card{
+        padding: 27px 90px;
+    }
+    .offer-card h3{
+        font-size: 25px;
+    }
+    .offer-card h2{
+        font-size: 40px;
+        margin-bottom: 1px;
+    }
+    
+ }
